@@ -59,7 +59,7 @@ const Character = () => {
   }
   const charMovement = (charPos, charSize, movement, blockBox) =>{
  
-    if(!checkCollision(charBox, blockBox))
+    if(!checkCollision(charBox, blockBox)){}
   }
   useEffect(() => {
     const interval = setInterval(() => {
